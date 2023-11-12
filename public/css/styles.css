@@ -499,48 +499,48 @@ img {
   background-color: var(--first-color);
 }
 
-.skills-container .skills-html {
+.skills-container .skills-angular {
   width: 90%;
 }
 
-.skills-container .skills-css {
-  width: 80%;
+.skills-container .skills-react {
+  width: 70%;
 }
 
-.skills-container .skills-js {
-  width: 60%;
+.skills-container .skills-burpsuit {
+  width: 80%;
 }
 
 .skills-container .skills-react {
   width: 85%;
 }
 
-.skills-container .skills-php {
+.skills-container .skills-express {
+  width: 90%;
+}
+
+.skills-container .skills-spring {
   width: 80%;
 }
 
-.skills-container .skills-node {
-  width: 70%;
+.skills-container .skills-laravel {
+  width: 80%;
 }
 
-.skills-container .skills-firebase {
+.skills-container .skills-SonarQube {
+  width: 60%;
+}
+
+.skills-container .skills-jenkins {
+  width: 80%;
+}
+
+.skills-container .skills-git {
   width: 90%;
 }
 
-.skills-container .skills-python {
-  width: 55%;
-}
-
-.skills-container .skills-figma {
+.skills-container .skills-metasploit {
   width: 90%;
-}
-
-.skills-container .skills-sketch {
-  width: 85%;
-}
-
-.skills-container .skills-ps {
-  width: 85%;
 }
 
 /* QUALIFICATION */

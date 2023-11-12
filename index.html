@@ -5,9 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
+    <!-- <link rel="stylesheet" href="./../public/css/aos.css"> -->
+
+    <link rel="stylesheet" href="./../public/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./../public/css/styles.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      
+    </div>
+    <script src="https://kit.fontawesome.com/027d3564f6.js" crossorigin="anonymous"></script>
+    <script src="js/swiper-bundle.js"></script>
+
+
+    <script>
+      window.onload = function(){
+        //add main script
+        const script = document.createElement('script');
+
+        script.src="js/index.js";
+        script.language="javascript"
+        document.body.appendChild(script);
+
+
+      }
+    </script>
     <script type="module" src="/src/main.tsx"></script>
+
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fas fa-arrow-up scrollup-icon"></i>
+  </a>
+
   </body>
 </html>
