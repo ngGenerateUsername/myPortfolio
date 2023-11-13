@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
-
+        <Portfolio />
       </main>
       <a href="#" className="scrollup" id="scroll-up">
         <i className="fas fa-arrow-up scrollup-icon"></i>

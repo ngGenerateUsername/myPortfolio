@@ -93,7 +93,7 @@ export default function Skills()
                 <div data-aos="fade-left">
 
                     {/* <!-- SKILLS 2 --> */}
-                    <div className="skills-container-content skills-close">
+                    <div className="skills-container-content skills-open">
 
                         <div className="skills-container-header">
                             <i className="fas fa-server skills-icon"></i>

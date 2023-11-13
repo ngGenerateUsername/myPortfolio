@@ -66,11 +66,11 @@ export default function Header()
                                 <i className="fas fa-file-alt nav-link-icon"></i> Skills
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#services" className="nav-link">
                                 <i className="fas fa-briefcase nav-link-icon"></i> Services
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a href="#portfolio" className="nav-link">
                                 <i className="fas fa-image nav-link-icon"></i> Portfolio
