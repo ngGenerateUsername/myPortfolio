@@ -6,13 +6,13 @@ export default function Portfolio()
 
     return (
         <section className="portfolio section" id="portfolio">
-        <h2 className="section-title">Portfolio</h2>
-        <span className="section-subtitle">Most recent work</span>
+        <h2 className="section__title">Portfolio</h2>
+        <span className="section__subtitle">Most recent work</span>
 
-        <div className="portfolio-container container swiper-container">
-            <div className="swiper-wrapper">
+        <div className="portfolio__container container swiper__container">
+            <div className="swiper__wrapper">
                 {/* <!-- PORTFOLIO 1 --> */}
-                <div className="portfolio-content grid swiper-slide">
+                <div className="portfolio__content grid swiper__slide">
                     <img src="img/TaskFlowApp.jpg" alt="Portfolio" className="portfolio-img" />
                     <div className="portfolio-data">
                         <h3 className="portfolio-title">TaskFlowApp</h3>
@@ -52,7 +52,7 @@ export default function Portfolio()
                     </div> */}
                     </div>
                 </div>
-                {/* <!-- PORTFOLIO 2 --> */}
+                {/* PORTFOLIO 2
                 <div className="portfolio-content grid swiper-slide">
                     <img src="img/portfolio2.jpg" alt="Portfolio" className="portfolio-img" />
                     <div className="portfolio-data">
@@ -64,7 +64,7 @@ export default function Portfolio()
                         </a>
                     </div>
                 </div>
-                {/* <!-- PORTFOLIO 3 --> */}
+                 PORTFOLIO 3
                 <div className="portfolio-content grid swiper-slide">
                     <img src="img/portfolio3.jpg" alt="Portfolio" className="portfolio-img" />
                     <div className="portfolio-data">
@@ -75,7 +75,7 @@ export default function Portfolio()
                             Demo <i className="fas fa-arrow-right button-icon"></i>
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
             {/* <!-- Add Arrow --> */}
             <div className="swiper-button-next">

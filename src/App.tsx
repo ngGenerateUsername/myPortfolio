@@ -8,6 +8,8 @@ import AOS from 'aos';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -29,8 +31,10 @@ function App() {
         <About />
         <Skills />
         <Qualification />
-        <Portfolio />
+        {/* <Portfolio /> */}
       </main>
+      <Contact />
+      <Footer />
       <a href="#" className="scrollup" id="scroll-up">
         <i className="fas fa-arrow-up scrollup-icon"></i>
     </a>
