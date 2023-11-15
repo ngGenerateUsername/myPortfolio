@@ -13,7 +13,7 @@ export default function Footer()
 
             <ul className="footer__links">
                 <li>
-                    <a href="#services" className="footer__link">Services</a>
+                    <a href="#home" className="footer__link">Home</a>
                 </li>
                 <li>
                     <a href="#portfolio" className="footer__link">Potfolio</a>
@@ -30,12 +30,12 @@ export default function Footer()
                 <a href="https://www.instagram.com/ahmed_bh.11" target="_blank" className="footer__social">
                     <i className="uil uil-instagram"></i>
                 </a>
-                <a href="https://www.twitter.com/" target="_blank" className="footer__social">
-                    <i className="uil uil-twitter-alt"></i>
+                <a href="https://discord.com/users/trycatch2710" target="_blank" className="footer__social">
+                    <i className="uil uil-discord"></i>
                 </a>
             </div>
 
-            <p className="footer__copy">&#169; Bedimcode. All right reserved</p>
+        <p className="footer__copy">&#129293;  Ahmed Ben Hamouda . All right reserved</p>
         </div>
     </div>
 </footer>

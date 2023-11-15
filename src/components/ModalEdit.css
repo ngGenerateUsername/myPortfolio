@@ -10,6 +10,10 @@ padding: 0rem !important;
 padding-top: 3rem;
 position: relative;
 overflow-y: auto;
-border-radius:1rem;
+
 }
 
+.lightMePlease
+{
+    font-weight: lighter;
+}

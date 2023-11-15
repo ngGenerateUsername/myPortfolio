@@ -32,7 +32,7 @@ export default function Home()
                         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
                         {/* <image className="home__blob-img" x='1' y='-25' xlinkHref="img/mrblue.png"/> */}
-                        <image className="home__blob-img" x="19" y="-6" xlinkHref="img/alter.png"></image>
+                        <image className="home__blob-img" x="-4" y="12" xlinkHref="img/lastPurple.png"></image>
                     </g>
                 </svg>
             </div>

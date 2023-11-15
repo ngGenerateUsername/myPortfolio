@@ -29,18 +29,29 @@ export default function Portfolio()
                     With its powerful combination of Flask for a robust backend, Flutter for an intuitive frontend, and PostgreSQL for secure data storage, */}
                     TaskFlow Pro delivers a seamless and efficient solution for supervisors and their teams.
                     </p>
-                    <a href="#about" className="button button--flex button--small portfolio__button" onClick={onOpenModal}>
+                    <a className="button button--flex button--small portfolio__button" onClick={onOpenModal}>
                         Details
                         <i className="uil uil-newspaper button__icon "></i>
                     </a>
 
                     <Modal open={open} onClose={onCloseModal} center>
                   
-                    <div className="services__modal-content" style={{margin:0,textAlign:"center"}}>
-                        {/* <h4 className="services__modal-title">UI/UX <br /> Designer</h4>
-                         */}
-                        <img src="img/TaskFlowApp.jpg" alt="" />
-                       
+                    <div className="services__modal-content" >
+                        {/* <h4 className="services__modal-title">UI/UX <br /> Designer</h4>*/}
+                  
+                        <img src="img/TaskFlowApp.jpg" alt="" style={{marginTop:4}}/>
+                      
+                       <p><br />The task management application I've crafted provides a comprehensive solution for supervisors to oversee and organize their team's tasks efficiently. Through a user-friendly dashboard interface, supervisors can seamlessly manage task allocation and track progress. This system also empowers employees with a mobile application, enabling them to access, update, and complete their assigned tasks on-the-go. The application's design promotes streamlined communication between supervisors and team members, fostering a more productive work environment. With a robust database foundation, the app ensures secure data management and real-time updates, facilitating collaborative workflows and enhancing overall productivity within the workplace.</p>
+                            <br />
+                         <h4>FrontEnd: <span className="lightMePlease">Flutter</span> </h4>
+                         <h4>BackEnd: <span className="lightMePlease">Flask</span> </h4>
+                         <h4>DataBase: <span className="lightMePlease">Postgresql</span></h4>
+
+                    
+                        <h4> <i className="uil uil-github" style={{fontSize:20}}></i>: &nbsp;<span className="lightMePlease" > <a href="https://github.com/ngGenerateUsername/Flask-PPG"  target="_blank">BackEnd</a> <a href="https://github.com/ngGenerateUsername/Flask-PPG" target="_blank">FrontEnd</a> </span></h4>
+
+
+
                     </div>
                
                     </Modal>
