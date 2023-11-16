@@ -2,6 +2,8 @@
 
 export default function About()
 {
+
+
     return (
     <section className="about section" id="about">
     <h2 className="section__title">About Me</h2>
@@ -12,9 +14,9 @@ export default function About()
 
         <div className="about__data">
             <p className="about__description">
-            I am driven by a passion for technology and a keen interest in exploring new methods and approaches.
-                     I am a creative thinker who enjoys proposing ideas that streamline business processes and
-                     enhance efficiency. With a strong background in both back-end and front-end development,
+            I am driven by a passion for technology and a keen interest in exploring new methods and approaches,
+             a creative thinker who enjoys proposing ideas that streamline business processes and
+                     enhance efficiency with a strong background in both backEnd and frontEnd development,
                      I am able to bring ideas to life and contribute to the development of innovative solutions.
             </p>
             

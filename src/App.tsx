@@ -10,6 +10,7 @@ import Qualification from './components/Qualification';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Services from './components/Services';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <About />
         <Skills />
         <Qualification />
+        <Services />
         <Portfolio />
       </main>
       <Contact />

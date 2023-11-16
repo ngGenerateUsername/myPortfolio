@@ -13,7 +13,7 @@ export default function Footer()
 
             <ul className="footer__links">
                 <li>
-                    <a href="#home" className="footer__link">Home</a>
+                    <a href="#services" className="footer__link">services</a>
                 </li>
                 <li>
                     <a href="#portfolio" className="footer__link">Potfolio</a>
@@ -24,7 +24,7 @@ export default function Footer()
             </ul>
 
             <div className="footer__socials">
-                <a href="https://www.facebook.com/SiSpoof" target="_blank" className="footer__social">
+                <a href="https://www.facebook.com/tryCatch403" target="_blank" className="footer__social">
                     <i className="uil uil-facebook-f"></i>
                 </a>
                 <a href="https://www.instagram.com/ahmed_bh.11" target="_blank" className="footer__social">
